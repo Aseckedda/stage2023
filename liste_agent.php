@@ -123,13 +123,13 @@ $nbr=$req1->rowCount();
             </div>
             <ul class="list-unstyled components">
 			<li  class="active">
-                    <a href="tableau_bord_admin.php" class="dashboard"><i class="material-icons">dashboard</i>
+                    <a href="index.php" class="dashboard"><i class="material-icons">dashboard</i>
 					<span>Tableau de bord</span></a>
                 </li>
 		
 
                 <li class="dropdown">
-                    <a href="tableau_bord_admin.php" data-toggle="collapse" aria-expanded="false" 
+                    <a href="#homeSubmenu1" data-toggle="collapse" aria-expanded="false" 
                     class="dropdown-toggle">
 					<i class="material-icons">extension</i><span>Agents</a>
                     <ul class="collapse list-unstyled menu" id="homeSubmenu1">

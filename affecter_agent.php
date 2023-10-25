@@ -137,7 +137,7 @@ if ($stmt->execute()) {
     // Exécution de la requête
     if ($stmt->execute()) {
         echo "L'agent a été affecté au nouveau projet '$nom_projet' avec succès.";
-        header("location:tableau_bord_admin.php");
+        header("location:index.php");
     } else {
         echo "Erreur lors de la mise à jour de l'agent.";
     }

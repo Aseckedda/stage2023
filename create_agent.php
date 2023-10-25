@@ -23,7 +23,7 @@ $competence = $_POST['competence'];
 // Requête d'insertion
 $sql = "INSERT INTO agent (nom, prenom, email, experience, projet, competence) VALUES ('$nom', '$prenom', '$email', '$experience', '$projet', '$competence' )";
 if ($conn->query($sql) === TRUE) {
-    header("Location:tableau_bord_admin.php");
+    header("Location:index.php");
 } else {
     echo "Erreur : " . $sql . "<br>" . $conn->error;
 }

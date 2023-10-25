@@ -169,7 +169,7 @@ $nbr=$req1->rowCount();
             </div>
             <ul class="list-unstyled components">
 			<li  class="active">
-                    <a href="tableau_bord_admin.php" class="dashboard"><i class="material-icons">dashboard</i>
+                    <a href="index.php" class="dashboard"><i class="material-icons">dashboard</i>
 					<span>Tableau de bord</span></a>
                 </li>
 		

@@ -41,7 +41,7 @@ $date_fin = $_POST['date_fin'];
 $sql = "INSERT INTO projet (nom_projet, description, date_debut, date_fin) VALUES ('$nom_projet', '$description', '$date_debut', '$date_fin' )";
 
 if ($conn->query($sql) === TRUE) {
-    header("Location:tableau_bord_admin.php");
+    header("Location:index.php");
 } else {
     echo "Erreur : " . $sql . "<br>" . $conn->error;
 }
